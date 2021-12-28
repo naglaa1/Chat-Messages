@@ -144,6 +144,59 @@ ul {
                 }
             }
         }
+        ul {
+            padding: 1em 2em;
+            display: flex;
+            flex-direction: column;
+            li {
+                width: fit-content;
+                height: auto;
+                padding: 0.5em;
+                margin-bottom: .5em;
+                border-radius: 7px;
+                font-size: 1.2rem;
+                &.you {
+                    background-color: #167ddf9e;
+                    color: white;
+                    position: relative;
+                    &::before {
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        border-top: 5px solid transparent;
+                        border-right: 5px solid #167ddf9e;
+                        border-bottom: 5px solid transparent;
+                        border-left: 5px solid transparent;
+                        position: absolute;
+                        top: 50%;
+                        left: -10px;
+                        transform: translateY(-50%);
+                    }
+                }
+                &.me {
+                    background-color: #cbbfe72e;
+                    color: #423f3f;
+                    align-self: flex-end;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        border-top: 5px solid transparent;
+                        border-right: 5px solid transparent;
+                        border-bottom: 5px solid transparent;
+                        border-left: 5px solid #cbbfe72e;
+                        position: absolute;
+                        top: 50%;
+                        right: -10px;
+                        transform: translateY(-50%);
+                    }
+                }
+                p {
+
+                }
+            }
+        }
     }
 }
     
