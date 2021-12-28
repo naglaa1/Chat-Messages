@@ -101,6 +101,50 @@ ul {
             }
         }
     }
+    main {
+        width: 100%;
+        header {
+            background-color: #80808021;
+            padding: 1em 2em;
+            h3 {
+                font-size: .9rem;
+                color: #8b8989;
+                span {
+                    font-weight: bold;
+                    color: black;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .recent-chat-date {
+            text-align: center;
+            margin-top: 9em;
+            margin-bottom: 2em;
+            padding: 1em 2em;
+            h5 {
+                position: relative;
+                color: gray;
+                font-size: 1rem;
+                &:after,
+                &::before {
+                    content: '';
+                    width:36%;
+                    height: 2px;
+                    background-color: #80808021;
+                    position: absolute;
+
+                }
+                &:after {
+                    top: 70%;
+                    left: 0;
+                }
+                &::before{
+                    top: 70%;
+                    right: 0;
+                }
+            }
+        }
+    }
 }
     
     
