@@ -129,4 +129,55 @@ ul {
   color: gray;
   padding-top: 0.2em;
 }
+
+.background main {
+  width: 100%;
+}
+
+.background main header {
+  background-color: #80808021;
+  padding: 1em 2em;
+}
+
+.background main header h3 {
+  font-size: .9rem;
+  color: #8b8989;
+}
+
+.background main header h3 span {
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+.background main .recent-chat-date {
+  text-align: center;
+  margin-top: 9em;
+  margin-bottom: 2em;
+  padding: 1em 2em;
+}
+
+.background main .recent-chat-date h5 {
+  position: relative;
+  color: gray;
+  font-size: 1rem;
+}
+
+.background main .recent-chat-date h5:after, .background main .recent-chat-date h5::before {
+  content: '';
+  width: 36%;
+  height: 2px;
+  background-color: #80808021;
+  position: absolute;
+}
+
+.background main .recent-chat-date h5:after {
+  top: 70%;
+  left: 0;
+}
+
+.background main .recent-chat-date h5::before {
+  top: 70%;
+  right: 0;
+}
 /*# sourceMappingURL=style.css.map */
