@@ -46,6 +46,7 @@ ul {
                 width: 80%;
                 font-size: .8rem;
                 width: 70%;
+                outline: none;
             }
             .add-friend {
                 width: 40px;
@@ -119,7 +120,6 @@ ul {
         .recent-chat-date {
             text-align: center;
             margin-top: 9em;
-            margin-bottom: 2em;
             padding: 1em 2em;
             h5 {
                 position: relative;
@@ -192,9 +192,37 @@ ul {
                         transform: translateY(-50%);
                     }
                 }
-                p {
-
+            }
+        }
+        footer {
+            height: 60px;
+            background-color: #cbbfe72e;
+            margin: 0em 2em 1em;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color: grey;
+            .write-msg {
+                padding: 0 1em;
+                line-height: 60px;
+                .filebutton {
+                    i {
+                        cursor: pointer;
+                    }
+                    input {
+                        display: none;
+                    }
                 }
+            }
+            input {
+                border: none;
+                width: 87%;
+                height: auto;
+                background-color: #cbbfe700;
+                margin: 2em 0;
+                outline: none;
+            }
+            .fa.fa-smile-o {
+                margin-right: .6em;
             }
         }
     }

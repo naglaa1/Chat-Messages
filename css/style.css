@@ -53,6 +53,7 @@ ul {
   width: 80%;
   font-size: .8rem;
   width: 70%;
+  outline: none;
 }
 
 .background aside header .add-friend {
@@ -153,7 +154,6 @@ ul {
 .background main .recent-chat-date {
   text-align: center;
   margin-top: 9em;
-  margin-bottom: 2em;
   padding: 1em 2em;
 }
 
@@ -245,5 +245,41 @@ ul {
   right: -10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.background main footer {
+  height: 60px;
+  background-color: #cbbfe72e;
+  margin: 0em 2em 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  color: grey;
+}
+
+.background main footer .write-msg {
+  padding: 0 1em;
+  line-height: 60px;
+}
+
+.background main footer .write-msg .filebutton i {
+  cursor: pointer;
+}
+
+.background main footer .write-msg .filebutton input {
+  display: none;
+}
+
+.background main footer input {
+  border: none;
+  width: 87%;
+  height: auto;
+  background-color: #cbbfe700;
+  margin: 2em 0;
+  outline: none;
+}
+
+.background main footer .fa.fa-smile-o {
+  margin-right: .6em;
 }
 /*# sourceMappingURL=style.css.map */
